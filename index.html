@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclypse: A Lenda do Caos | Site Oficial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon-eclypse.png">
+</head>
+<body>
+    <video loop autoplay muted playsinline>
+        <source src="assets/video-inicio-eclypse.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+    </video>
+
+    <header id="main-header">
+        <nav class="container">
+            <h1 class="logo">ECLYPSE</h1>
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#personagens">Personagens</a></li>
+                <li><a href="#midia">Mídia</a></li>
+                <li><a href="#comprar" class="btn btn-nav-cta">JOGAR AGORA</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Abrir Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content container">
+                <p class="subtitle">A Lenda do Caos</p>
+                <h2 class="title-main">O Fim Está Próximo. Sua Lenda, Apenas Começando.</h2>
+                <div class="cta-group">
+                    <a href="#comprar" class="btn btn-primary btn-pulse">JOGAR AGORA</a>
+                    <a href="#trailer" class="btn btn-secondary btn-icon"><span class="icon-play">►</span> Assistir Trailer</a>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <section id="historia" class="content-section">
+            <div class="container">
+                <h3 class="section-title">O Caos Se Revela</h3>
+                <p class="lead-text">O mundo de Aethel está à beira do colapso. Antigas profecias se cumprem e a sombra de Eclypse ameaça devorar toda a luz. Você é a última esperança.</p>
+
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <img data-src="assets/combate-dinamico.png" alt="Combate Dinâmico" class="lazy-image">
+                        <h4>Combate Dinâmico</h4>
+                        <p>Domine um sistema de combate rápido e punitivo, onde cada golpe e esquiva conta.</p>
+                    </div>
+                    <div class="feature-card">
+                        <img data-src="assets/mundo-aberto-sombrio.png" alt="Mundo Aberto Sombrio" class="lazy-image">
+                        <h4>Mundo Aberto Sombrio</h4>
+                        <p>Explore vastos e aterrorizantes reinos, cada um com seus próprios segredos e horrores.</p>
+                    </div>
+                    <div class="feature-card">
+                        <img data-src="assets/magias-do-vazio.png" alt="Magias do Vazio" class="lazy-image">
+                        <h4>Magias do Vazio</h4>
+                        <p>Canalize a própria energia do caos para desencadear poderes destrutivos e únicos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="personagens" class="content-section dark-section">
+            <div class="container">
+                <h3 class="section-title">Os Campeões e os Caídos</h3>
+                <div class="character-slider-wrapper">
+                    <div class="character-slider">
+                        <div class="character-card active" data-char="Elara">
+                            <img data-src="assets/elara.png" alt="Elara, A Guardiã" class="lazy-image">
+                            <div class="char-info">
+                                <h4>Elara, A Guardiã</h4>
+                                <p>Última dos Senhores da Luz, ela carrega o fardo de proteger o que resta da esperança.</p>
+                            </div>
+                        </div>
+                        <div class="character-card" data-char="Kael">
+                            <img data-src="assets/kael.png" alt="Kael, O Exilado" class="lazy-image">
+                            <div class="char-info">
+                                <h4>Kael, O Exilado</h4>
+                                <p>Um mercenário sombrio com um passado misterioso e lealdade incerta.</p>
+                            </div>
+                        </div>
+                        <div class="character-card" data-char="Zephyr">
+                            <img data-src="assets/zephyr.png" alt="Zephyr, O Arauto" class="lazy-image">
+                            <div class="char-info">
+                                <h4>Zephyr, O Arauto</h4>
+                                <p>Uma criatura elemental do caos, cujo propósito é destruir a ordem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider-btn prev">❮</button>
+                    <button class="slider-btn next">❯</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="midia" class="content-section">
+            <div class="container">
+                <h3 class="section-title">Veja o Caos em Ação</h3>
+                <div id="trailer" class="video-container">
+                    <div class="video-placeholder" data-video-id="VIDEO_ID_DO_TRAILER">
+                        <img data-src="images/video-thumbnail.jpg" alt="Thumbnail do Trailer Oficial" class="lazy-image">
+                        
+                        <!--<video loop autoplay muted playsinline>
+                            <source src="assets/video19201080.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeos.
+                        </video>-->
+
+                        <button class="play-btn">▶</button>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="stats" class="stats-section dark-section">
+            <div class="container">
+                <h3 class="section-title">O Caos em Números</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="25000">0</span>
+                        <p class="stat-label">Jogadores na Beta Fechada</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="1200">0</span>
+                        <p class="stat-label">Horas Média de Jogo</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="87">0%</span>
+                        <p class="stat-label">Avaliações Positivas</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="15000000">0</span>
+                        <p class="stat-label">Inimigos do Caos Eliminados</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter-section">
+            <div class="container">
+                <h3 class="section-title">Entre no Campo de Batalha Primeiro</h3>
+                <p class="lead-text">Assine nossa newsletter para receber notícias exclusivas, códigos beta e a chance de ganhar uma Edição de Colecionador!</p>
+                
+                <form id="newsletter-form" class="newsletter-form">
+                    <input type="email" placeholder="Seu Melhor E-mail do Reino..." required>
+                    <button type="submit" class="btn btn-primary btn-shake">REVELAR EXCLUSIVOS</button>
+                    <p class="privacy-note">Seu e-mail está seguro conosco. Prometemos apenas caos controlado.</p>
+                </form>
+            </div>
+        </section>
+
+        <section id="comprar" class="cta-final-section dark-section">
+            <div class="container">
+                <h3>Prepare-se para a Lenda</h3>
+                <p>O destino de Aethel está em suas mãos. Garanta sua cópia e enfrente a escuridão.</p>
+                <div class="cta-price-group">
+                    <span class="price-tag">Pré-Venda: R$ 199,90</span>
+                    <a href="#" class="btn btn-primary btn-shake">PRÉ-VENDA AGORA!</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Eclypse Game Studio. Todos os direitos reservados.</p>
+
+            <div class="social-links">
+                <a href="#">Discord</a>
+                <a href="#">Twitter</a>
+                <a href="#">Youtube</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
